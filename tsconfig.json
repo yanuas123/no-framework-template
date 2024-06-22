@@ -1,0 +1,17 @@
+{
+  "files": ["./sources/app.ts"],
+  "compilerOptions": {
+    "paths": {
+      "@shared/*": ["./sources/shared/*"]
+    },
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "rootDir": "./sources",
+    "outDir": "./dist",
+    "strictNullChecks": false,
+    "strict": false,
+    "strictPropertyInitialization": false
+  }
+}
